@@ -21,10 +21,11 @@ README - Minecraft Server API
     - pip install fastapi uvicorn docker
 
 🔧 Run the API
-    ```
-    uvicorn main:app --reload
-    docker run -d -p 8000:8000 --name minecraft-api-server -v /var/run/docker.sock:/var/run/docker.sock minecraft-api
-    ```
+
+    - uvicorn main:app --reload
+
+    - docker run -d -p 8000:8000 --name minecraft-api-server -v /var/run/docker.sock:/var/run/docker.sock minecraft-api
+
     - Visit 'http://localhost:8000/docs' to explore Swagger UI and test endpoints
 
 🎮 How to Connect in Minecraft
@@ -49,13 +50,12 @@ Once the server is running:
 
 📘 Example Requests
     - POST /start-server
-    ```
+        Starts server and prints the following:
     {
         "version": "1.20.4",
         "port": 25565,
         "world_name": "customworld"
     }
-    ```
     - POST 
         /stop-server/mc-server-abc123
         Stop and remove a server container.
