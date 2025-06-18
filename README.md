@@ -51,11 +51,11 @@ Once the server is running:
 📘 Example Requests
     - POST /start-server
         Starts server and prints the following:
-    {
+
         "version": "1.20.4",
         "port": 25565,
         "world_name": "customworld"
-    }
+
     - POST 
         /stop-server/mc-server-abc123
         Stop and remove a server container.
