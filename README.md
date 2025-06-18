@@ -30,7 +30,8 @@ README - Minecraft Server API
 
 🎮 How to Connect in Minecraft
 
-Once the server is running:
+    - Once the server is running:
+    
     - Open Minecraft Java Edition
 
     - Click on Multiplayer
@@ -49,6 +50,7 @@ Once the server is running:
 
 
 📘 Example Requests
+
     - POST /start-server
         Starts server and prints the following:
 
